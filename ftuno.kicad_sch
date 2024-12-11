@@ -14420,7 +14420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 125.73 180.975 0)
 			(effects
 				(font
@@ -14550,6 +14550,76 @@
 			(project "ftuno"
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414d7ffa-3f66-42db-bc60-a8ee688ce047")
+		(property "Reference" "R12"
+			(at 60.96 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 60.96 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.642 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82492c2f-8da3-481a-82b4-d7926fe9a83c")
+		)
+		(pin "2"
+			(uuid "ed630593-6eec-41b5-b7b8-380d9f9c7ff6")
+		)
+		(instances
+			(project "ftuno"
+				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14768,6 +14838,76 @@
 			(project "ftuno"
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49bc94b8-8082-4379-b34f-da2c36ff465d")
+		(property "Reference" "R6"
+			(at 25.4 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 25.4 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 21.082 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117608fe-866c-472d-8d91-a07db79c5483")
+		)
+		(pin "2"
+			(uuid "6f03c7e4-b207-48cc-bafa-96aa765f6e97")
+		)
+		(instances
+			(project ""
+				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15037,7 +15177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 111.76 147.955 0)
 			(effects
 				(font
@@ -15314,7 +15454,7 @@
 		(fields_autoplaced yes)
 		(uuid "5042e0d7-e5c0-4ba7-a868-f44ea492c293")
 		(property "Reference" "RN1"
-			(at 85.09 140.335 0)
+			(at 85.09 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,8 +15462,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 85.09 142.875 0)
+		(property "Value" "4.7k"
+			(at 85.09 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +16037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 121.92 142.875 0)
 			(effects
 				(font
@@ -16587,182 +16727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 58.42 182.88 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b237c46-5238-405e-b069-0f43abb8157e")
-		(property "Reference" "RN3"
-			(at 60.96 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 60.96 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 56.388 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e462746-aac0-422e-a4e4-75687e035589")
-		)
-		(pin "8"
-			(uuid "7a17cc48-1fcd-4111-994e-a98ea4e3559d")
-		)
-		(pin "2"
-			(uuid "76a4c040-4242-4205-881c-e01a14a6afd9")
-		)
-		(pin "7"
-			(uuid "838fabb7-ec48-4b3e-a76b-7e3add9dcff3")
-		)
-		(pin "3"
-			(uuid "49dc21a1-0170-4be4-8e79-c8a1d138068f")
-		)
-		(pin "6"
-			(uuid "f56671aa-45c3-4edb-904d-7a77042545e8")
-		)
-		(pin "4"
-			(uuid "a3963d98-83ac-41ad-a34c-fbcf0c49cc84")
-		)
-		(pin "5"
-			(uuid "bdc707d8-7b35-492e-8917-b05c3be974ff")
-		)
-		(instances
-			(project "ftuno"
-				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
-					(reference "RN3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 45.72 182.88 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80485104-2da1-444c-91f7-3d2e97f4cc82")
-		(property "Reference" "RN3"
-			(at 48.26 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 48.26 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 43.688 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ecbd268-6a64-4ee5-9141-ad17aac95622")
-		)
-		(pin "8"
-			(uuid "9ff2b984-9707-4eaf-86c1-09fb50fe4104")
-		)
-		(pin "2"
-			(uuid "9105ea25-f4a4-4c5d-b1c8-79413d586f42")
-		)
-		(pin "7"
-			(uuid "dd9263b9-3f0f-4d96-a0fd-ed25c3399b93")
-		)
-		(pin "3"
-			(uuid "a99a5eb8-81aa-4737-b2b7-1a477758d31f")
-		)
-		(pin "6"
-			(uuid "5c309228-4a9a-4779-bee5-f9b988ec04b9")
-		)
-		(pin "4"
-			(uuid "7863ba33-7abd-40fe-a409-6dc2c2191f86")
-		)
-		(pin "5"
-			(uuid "b8317a14-468d-4f43-aa5d-919ecc9003bf")
-		)
-		(instances
-			(project "ftuno"
-				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
-					(reference "RN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 62.23 0)
 		(unit 1)
@@ -16915,7 +16879,7 @@
 		(fields_autoplaced yes)
 		(uuid "8657fbe4-e793-499a-b305-eb6536707fd6")
 		(property "Reference" "RN2"
-			(at 85.09 178.435 0)
+			(at 85.09 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16923,8 +16887,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 85.09 180.975 0)
+		(property "Value" "4.7k"
+			(at 85.09 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,94 +16952,6 @@
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "RN2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 22.86 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "880126ea-32c3-4597-bb8e-aa6dc9398ab6")
-		(property "Reference" "RN3"
-			(at 25.4 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 25.4 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 20.828 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4eddaf7-908a-4650-a321-82945b57d772")
-		)
-		(pin "8"
-			(uuid "109d8649-8be8-4aef-9910-e9939b18f631")
-		)
-		(pin "2"
-			(uuid "91b89df1-35ee-4fbd-8ef1-45c92361e477")
-		)
-		(pin "7"
-			(uuid "9f8b1a17-46cc-426f-9fee-2c3701294cd4")
-		)
-		(pin "3"
-			(uuid "6158cea0-7fc5-4ca6-ac93-8b99cfc8224e")
-		)
-		(pin "6"
-			(uuid "71a02257-e336-4300-b26c-e48b540bdaca")
-		)
-		(pin "4"
-			(uuid "3e2cf690-a293-4675-9a1d-2ee9d817f9e7")
-		)
-		(pin "5"
-			(uuid "1ccb04db-a2bc-4a08-85af-ec39366f4b3a")
-		)
-		(instances
-			(project "ftuno"
-				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
-					(reference "RN3")
-					(unit 1)
 				)
 			)
 		)
@@ -17245,7 +17121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 95.1953 147.955 0)
 			(effects
 				(font
@@ -17758,7 +17634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 95.1953 192.405 0)
 			(effects
 				(font
@@ -17890,94 +17766,6 @@
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "R5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 34.29 182.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3d6f5a0-c628-4103-89c5-3c88de51f56a")
-		(property "Reference" "RN3"
-			(at 36.83 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 36.83 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 32.258 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18df428d-889a-4117-a1ff-ce0bf29e96d2")
-		)
-		(pin "8"
-			(uuid "bc80e166-3875-47ea-9eb0-b3870650ce29")
-		)
-		(pin "2"
-			(uuid "0a619aa5-3a9f-450b-b6bc-0a385d68c987")
-		)
-		(pin "7"
-			(uuid "7fddf7a1-d421-4e94-8513-f93f4d337ced")
-		)
-		(pin "3"
-			(uuid "5b4261a4-ee60-4b01-91bb-7cfb8aef684b")
-		)
-		(pin "6"
-			(uuid "d1ae5073-527c-43f8-ad0e-465e36d80c89")
-		)
-		(pin "4"
-			(uuid "becbb9c1-80b9-442e-98a4-73851aed2e8d")
-		)
-		(pin "5"
-			(uuid "3c80338d-0ac9-4437-8653-80f392ec941c")
-		)
-		(instances
-			(project "ftuno"
-				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
-					(reference "RN3")
-					(unit 2)
 				)
 			)
 		)
@@ -19270,7 +19058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 111.76 192.405 0)
 			(effects
 				(font
@@ -19604,6 +19392,76 @@
 			(project "ftuno"
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb01a97-5327-468d-9374-dddbcd0ad82a")
+		(property "Reference" "R7"
+			(at 36.83 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 36.83 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148faeb8-f14a-483d-a702-0190201b6d6f")
+		)
+		(pin "2"
+			(uuid "b61d806d-5f99-400b-a94c-dc2f93cc564b")
+		)
+		(instances
+			(project "ftuno"
+				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -20164,6 +20022,76 @@
 			(project ""
 				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62d123c-4f32-42e9-965d-9cc0ee94723d")
+		(property "Reference" "R11"
+			(at 48.26 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 48.26 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.942 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7978db-835d-48e3-80c5-8045cf93ac17")
+		)
+		(pin "2"
+			(uuid "eef3c520-098b-4987-b26a-503c0de826b7")
+		)
+		(instances
+			(project "ftuno"
+				(path "/a2f1267c-a24f-4c19-9efe-cada272527e5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
